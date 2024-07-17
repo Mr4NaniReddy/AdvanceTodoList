@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+body {
+  color: #444;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f7;
+}
+
+.custom-h1 {
+  color: rgb(179, 131, 226);
+  font-size: 10rem;
+  opacity: 0.4;
+  margin-top: 8.5rem;
+}
+
+form {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  width: 400px;
+  margin-top: 6rem;
+}
+
+.input {
+  border: none;
+  color: #444;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  display: block;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: #d5d5d5;
+}
+
+.input:focus {
+  outline-color: rgb(179, 131, 226);
+}
+
+.todoslist {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.todoslist li {
+  border-top: 1px solid #e5e5e5;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+
+.delete-button {
+  background-color: rgb(216, 73, 73);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  right: 10px;
+}
+
+.delete-button:hover {
+  background-color: rgb(128, 128, 128);
+}
+
+.edit-button {
+  background-color: rgb(179, 131, 226);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  right: 90px;
+}
+
+.edit-button:hover {
+  background-color: rgb(148, 148, 148);
+}
